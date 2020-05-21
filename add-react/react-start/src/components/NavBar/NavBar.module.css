@@ -1,0 +1,28 @@
+.nav{
+  grid-area: n;
+  padding-top: 0.6em;
+  position: fixed;
+}
+.navItem{
+  padding: 0.7em 0 0 0.5em;
+}
+
+.navLink{
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 0.04em;
+  color: rgb(75, 48, 30);
+}
+
+.navLink.active{
+  font-size: 28px;
+  color: rgb(26, 11, 2);
+}
+
+.navLink:hover{
+  color: rgb(26, 11, 2);
+}
+
+.navEnd{
+  padding-top: 6em;
+}

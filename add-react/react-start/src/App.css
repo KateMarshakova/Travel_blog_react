@@ -1,0 +1,25 @@
+.app-wrapper__header{
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 40px rgba(66, 43, 33, 0.295);
+}
+
+.app-wrapper__main{
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+
+  grid-template-areas: 
+  'n c';
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 0.5em;
+  padding-top: 77px;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  font-size: 25px;
+  color: rgb(75, 48, 30);
+  margin-right: 8px;
+  z-index: -10;
+}
