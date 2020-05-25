@@ -1,0 +1,8 @@
+.profileAvatar{
+    background: rgb(247, 243, 238);
+    border-radius: 10px;
+}
+.avatar{
+    width: 200px;
+    padding: 8px;
+}

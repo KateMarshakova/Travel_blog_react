@@ -1,0 +1,22 @@
+.cover{
+    background: rgb(247, 243, 238);
+    border-radius: 10px;
+}
+
+.coverPhrase{
+    position: absolute;
+    top: 52px;
+    left: 114px;
+    width: 732px;
+    text-align: center;
+    font-size: 111px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(192, 148, 119, 0.596);
+}
+  
+.coverImage{
+    width: 98.2%;
+    height: 490px;
+    padding: 8px;
+}
