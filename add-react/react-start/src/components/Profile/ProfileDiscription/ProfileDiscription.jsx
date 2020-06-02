@@ -1,7 +1,7 @@
 import React from 'react';
 import c from './ProfileDiscription.module.css';
 
-const ProfileDiscription = () => {
+const ProfileDiscription = (props) => {
     return (
         <div className={c.profileDiscription}>
             <div className={c.discription}>

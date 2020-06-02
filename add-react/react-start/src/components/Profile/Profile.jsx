@@ -1,11 +1,13 @@
 import React from 'react';
 import c from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
-import ProfileDiscription from './MyPosts/ProfileDiscription/ProfileDiscription';
 import ProfileAvatar from './ProfileAvatar/ProfileAvatar';
 import ProfileCover from './ProfileCover/ProfileCover';
+import ProfileDiscription from './ProfileDiscription/ProfileDiscription';
+import Post from './MyPosts/Post/Post';
 
 const Profile = () => {
+
   return (
     <div className={c.profile}>
       <div className={c.profileCover}>

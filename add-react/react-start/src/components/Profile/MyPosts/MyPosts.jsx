@@ -10,6 +10,8 @@ const MyPosts = () => {
     {name: 'Nastya U', message: 'Hello! How are you, girls?'}
   ]
 
+  let messageElements = messageData.map(m => <Post name={m.name} message={m.message} />);
+
   return (
     <div className={c.post}>
       <div className={c.Name}>
@@ -19,9 +21,7 @@ const MyPosts = () => {
           <button>Enter</button>
         </div>
       </div>
-      <Post name={messageData[0].name} message={messageData[0].message} />
-      <Post name={messageData[1].name} message={messageData[1].message} />
-      <Post name={messageData[2].name} message={messageData[2].message} />
+      {messageElements}
     </div>
   )
 }
