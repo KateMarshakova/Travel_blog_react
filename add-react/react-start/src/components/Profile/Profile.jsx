@@ -4,7 +4,6 @@ import MyPosts from './MyPosts/MyPosts';
 import ProfileAvatar from './ProfileAvatar/ProfileAvatar';
 import ProfileCover from './ProfileCover/ProfileCover';
 import ProfileDiscription from './ProfileDiscription/ProfileDiscription';
-import Post from './MyPosts/Post/Post';
 
 const Profile = () => {
 
